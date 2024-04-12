@@ -31,7 +31,7 @@ def createTree():
 # mainss fonksiyonunu bir kere çağır
 tree = createTree()
 #example -> http://localhost:10001/find_same_names?name=sophia
-@app.route('/find_names', methods=['GET'])
+@app.route('/find_same_names', methods=['GET'])
 def find_values_route():
     name = request.args.get('name')
     if name:
